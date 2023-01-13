@@ -1,0 +1,302 @@
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: 0px 0px 5px 1px;
+    min-height: 6rem;
+    max-height: 6rem;
+    background-color: white;
+}
+header table{
+    padding: 2rem;
+    font-size: 20px;
+}
+header th{
+    padding-left: 1rem;
+}
+main{
+    background-image: url(C:\Users\black\OneDrive\Escritorio\CinemaPalma\frontend\public\assets\img\background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 1rem;
+}
+.main-detail{
+    padding: 1rem;
+    background-image: url(C:\Users\black\OneDrive\Escritorio\CinemaPalma\frontend\public\assets\img\background-section.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 1rem;
+    
+}
+section{
+    background-image: url(C:\Users\black\OneDrive\Escritorio\CinemaPalma\frontend\public\assets\img\background-section.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.welcome{
+    font-size: 56px;
+    text-align: center;
+    margin-top: 40vh;
+}
+.welcome2{
+    text-align: center;
+}
+.Link{
+    text-decoration: none;
+    color: #000;
+    padding: 1rem;
+}
+.logoutbtn{
+    display: flex;
+    float: right;
+    max-width: 100px;
+    min-width: 100px;
+    padding: 0.4rem;
+    margin: 2rem 1rem;
+    font-size: 16px;
+    border: solid 1px grey;
+    border-radius: 0.4rem;   
+}
+.logoutbtn:hover{
+    cursor: pointer;
+    transition: 200ms;
+    background-color: rgb(195, 195, 195);
+}
+.goLogin{
+    display: flex;
+    float: right;
+    padding: 0.4rem;
+    margin: 2rem 1rem;
+    font-size: 16px;
+    border: solid 1px grey;
+    border-radius: 0.4rem;
+}
+.FaUser{
+    padding: 0.2rem 0.6rem;
+}
+.Userbtn{
+    display: flex;
+    float: right;
+    max-width: 100px;
+    min-width: 100px;
+    padding: 0.4rem;
+    margin: 2rem 1rem;
+    font-size: 16px;
+    border: solid 1px grey;
+    border-radius: 0.4rem;
+}
+.goLogin:hover{
+    transition: 200ms;
+    background-color: rgb(195, 195, 195);
+}
+
+.Userbtn:hover{
+    cursor: pointer;
+    transition: 200ms;
+    background-color: rgb(195, 195, 195);
+}
+
+.films-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.6rem;
+    margin: 0 8rem 0rem 0rem;
+    padding: 1.6rem;
+}
+.film-card{
+    border-radius: 0.4rem;
+    max-width: 180px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    box-shadow: 0px 0px 1px 1px gray;
+    margin: 1rem;
+    background-color: white;
+}
+.film-card:hover{
+    transition: 200ms;
+    box-shadow: 0px 0px 4px 2px white;
+}
+.film-title{
+    font-size: 16px;
+    padding: 0.1rem 0.6rem;
+    min-height: 50px;
+}
+.FaArrowLeft{
+    padding: 1rem;
+    border-radius: 5rem;
+    background-color: white;
+}
+.FaArrowLeft:hover{
+    transition: 200ms;
+    cursor: pointer;
+    background-color: gray;
+}
+
+.film-info{
+    font-size: 12px;
+    color: grey;
+    text-align: justify;
+}
+.film-info p{
+    padding: 0rem 1.4rem;
+}
+.film-info div{
+    font-size: 16px;
+    padding-right: 2.4rem;
+}
+.film-info h2{
+    padding-left: 4rem;
+    color: #000;
+    font-size: 20px;
+}
+.film-info img{
+    border-radius: 0.4rem 0rem 0rem 0rem;
+}
+img{
+    max-width: 180px;
+    min-width: 180px;
+    border-radius: 0.4rem 0.4rem 0rem 0rem;
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    border-radius: 0.4rem;
+    min-height: 70vh;
+    background-color: white;
+}
+.article-container{
+    background-color: white;
+    border-radius: 0.4rem;
+    box-shadow: 0px 0px 4px 1px gray;
+    min-height: 120vh;
+}
+.register-container{
+    border: 1px solid;
+    margin: 4rem 70vh;
+    padding: 1rem;
+    max-height: 300px;
+    min-height: 300px;
+}
+.register-container form{
+    padding: 1rem;
+}
+.register-container form label{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    padding: 0.6rem;
+    max-width: 400px;
+    min-width: 400px;
+    
+}
+.login-container{
+    border: 1px solid;
+    margin: 4rem 70vh;
+    padding: 1rem;
+    max-height: 200px;
+    min-height: 200px;
+}
+.login-container form{
+    padding: 1rem;
+}
+.login-container form label{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    padding: 0.6rem;
+    max-width: 400px;
+    min-width: 400px;
+}
+.loginbtn{
+    display: flex;
+    float: right;
+    padding: 0.4rem 1rem;
+    border-radius: 0.4rem;
+    border: 1px solid grey;
+    background-color: white;
+}
+.loginbtn:hover{
+    cursor: pointer;
+    transition: 200ms;
+    background-color: rgb(195, 195, 195);
+}
+.notRegistered{
+    font-size: 12px;
+    padding: 0.4rem;
+}
+
+.grid-seats{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 26px;
+    margin: 0rem 85vh;
+}
+.seat:hover{
+    cursor: pointer;
+}
+.active{
+    color: rgb(0, 200, 0);
+}
+
+hr{
+    width: 50vh;
+    height: 5px;
+    background-color: #000;
+}
+.pantalla{
+    text-align: center;
+}
+.FaArrowDown{
+    text-align: center;
+}
+
+.comprarbtn{
+    border: 1px solid rgb(207, 207, 207);
+    font-size: 14px;
+    margin: 0.2rem;
+    border-radius: 0.4rem;
+    text-align: center;
+    padding: 0.6rem;
+    max-width: 200px;
+}
+.comprarbtn:hover{
+    cursor: pointer;
+}
+
+.off{
+    color: grey;
+    background-color: rgb(207, 207, 207);
+    margin: 0 90vh;
+}
+.comprar-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 80vh;
+    margin: 0 75vh;
+}
+footer{
+    background-color: black;
+    box-shadow: 0px 0px 50px 50px black;
+    height: 10vh;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.logo{
+    margin: -3rem 0rem;
+}
+
+.search-container{
+    text-align: center;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 12fr 1fr;
+    max-width: 80vh;
+    gap: 1rem;
+    margin: 0 80vh;
+}
+.FaSearch{
+    color: white;
+}
